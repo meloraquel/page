@@ -3,11 +3,16 @@
   margin: 0;
   padding: 0;
   font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+body{
+  background-image: url(assets/bg.png);
+  width: auto;
 
 }
 
+/*Configurações aplicáveis à todas as páginas*/
 /* Configuração do menu - https://www.youtube.com/watch?v=T6UDjGfeaFU*/ 
-
 .cabecalho{
   background: #0ff;
   padding-inline: 10px;
@@ -28,6 +33,10 @@
 
 }
 
+
+
+
+/* Configuração da Página Index*/
 .divcursos{
   display: inline-block; 
   width: 20%;
@@ -35,12 +44,20 @@
 }
 
 
+.mainbody{
+  margin: 5%;
+  align-items: center;
+  justify-content: center;
+
+
+}  
+  
+  
+  
+  
 /*
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman', Times, serif, sans-serif;
-  }
+
+https://www.devmedia.com.br/como-centralizar-divs-em-html-e-css/37568
 
 
 
