@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depoimentos - AvanceTec</title>
+</head>
+<body class="corpo_site" style="background-image: url(assets/bg.png); width: 100%;">
+    <!-- Cabeçalho -->
+    <header style="background-color: aqua;">
+            <nav>
+                <div class="logo" style="display: inline-block; width: 5%; height: 60;">
+                <br><img src="assets/logo1.png" width=auto height=50 alt="AvanceTec">
+                </div>
+                <div class="logo" style="display: inline-block; width: 75%;">
+                    <menu>
+                        <a href="index.html">Início</a>
+                        <a href="sobre.html">Sobre</a>
+                        <a href="cursos.html">Cursos</a>
+                        <a href="contato.html">Contato</a>
+                        <a href="depoimentos.html">Depoimentos</a>
+                        <a href="login.html">Login</a>
+                        <a href="matricula.html">Matrícula</a>
+                        <a href="admin.html">Admin</a>
+                    </menu>
+                </div>
+                
+            </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!--Logo do Site-->
+        <section>
+            <div style="text-align: center">
+                <img src="assets/logo2.png" width="350" height=auto alt="AvanceTec">
+                <h1>AvanceTec</h1>
+                <p>CURSOS DE TECNOLOGIA PARA ALAVANCAR SUA CARREIRA</p>
+            </div>
+        </section>
+        <br><br><br><br>
+        <!-- Formulário de Contato -->
+        <section>
+                <div style="display: inline-block; width: 20%;">
+                    <h2>Envie um Depoimento</h2>
+                    <form>
+                        <label for="nome">Nome Completo:</label><br>
+                        <input type="text" id="nome" name="nome" required><br><br>
+
+                        <label for="curso">Curso:</label><br>
+                        <input type="text" id="curso" name="curso" required><br><br>
+
+                        <label for="depoimento">Depoimento:</label><br>
+                        <textarea id="depoimento" name="depoimento" rows="5" required></textarea><br><br>
+
+                        <label for="nota"> Nota </label><br>
+                        <input type="radio" id="n1" name="notas" value="n1">
+                        <label for="n1">1</label>
+                        <input type="radio" id="n2" name="notas" value="n2">
+                        <label for="n2">2</label>
+                        <input type="radio" id="n3" name="notas" value="n3">
+                        <label for="javascript">3</label>
+                        <input type="radio" id="n4" name="notas" value="n4">
+                        <label for="n4">4</label>
+                        <input type="radio" id="n5" name="notas" value="n5">
+                        <label for="n5">5</label><br><br>
+                        <button type="submit">Enviar depoimento</button>
+                    </form>
+                </div>
+        </section>
+        <!--Lista de depoimentos-->
+        <section>
+            <div>
+                        <table>
+            <thead>
+                <tr>
+                    <th>Nome Completo</th>
+                    <th>Curso</th>
+                    <th>Depoimento</th>
+                    <th>Nota</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Raquel </td>
+                    <td>Python para Ciência de Dados</td>
+                    <td>Muito bom!!</td>
+                    <td>5</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>Nicholas</td>
+                    <td>Figma para Designers</td>
+                    <td>Muito bom!!</td>
+                    <td>5</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>Kauan</td>
+                    <td>PostgreSQL</td>
+                    <td>Muito bom!!</td>
+                    <td>5</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div style="text-align: center;">
+            <p>&copy; 2026 AvanceTec. Desenvolvido por <a href="sobreautor.html">Raquel Melo</a>.</p>
+            <p>Desenvolvendo profissionais de tecnologia para o futuro</p>
+        </div>
+    </footer>
+</body>
+</html>
