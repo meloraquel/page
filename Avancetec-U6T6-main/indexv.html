@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvanceTec - Cursos de Tecnologia</title>
+    <link rel="stylesheet" href="./css/style2.css">
+    <style type="text/css">
+        #texto1{
+            float: left;
+            width: 40%;
+            margin: 15px;
+        }
+        #texto2, #texto3{
+            clear: both;
+        
+        }
+    </style>
+
+
+</head>
+<body class="corpo_site">
+    <!-- Cabeçalho -->
+    <header class="headersite">
+        <a href="indexv.html"><img src="assets/logo1.png" class = "logomenu" alt="AvanceTec"  width=auto height=50 ></a>
+        <nav class="menunav site-nav">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="labelmenu">
+            <span class="spammenu"></span>
+            </label>
+            <menu class="sitemenu">
+                <li><a href="indexv.html">Início</a></li>
+                <li><a href="/vertical/sobrev.html">Sobre</a></li>
+                <li><a href="/vertical/cursosv.html">Cursos</a></li>
+                <li><a href="/vertical/contatov.html">Contato</a></li>
+                <li><a href="/vertical/depoimentosv.html">Depoimentos</a></li>
+                <li><a href="/vertical/loginv.html">Login</a></li>
+                <li><a href="/vertical/matriculav.html">Matrícula</a></li>
+                <li><a href="/vertical/adminv.html">Admin</a></li>
+                <li><a href="index.html">Horizontal</a></li>
+            </menu>
+            </nav>
+    </header>
+
+        <!-- Corpo principal - parte do logo da página -->
+        <main class="site-main">         
+            <!-- Corpo principal - parte do logo da página -->
+            <section class = "mainlogo">
+                <div style="background-color: white;;">
+                    <p ><img src="assets/logo2.png" width="350" height=auto alt="AvanceTec"> </p>
+                    <h1>Bem-vindo à AvanceTec</h1>
+                    <p style="text-align: center;">CURSOS DE TECNOLOGIA PARA ALAVANCAR SUA CARREIRA</p><br><br>
+                </div>
+            </section>
+
+            <!-- Apresentação da página -->
+            <section class = "apresentacao">
+                <div>
+                    <div>
+                        <div>
+                            <br><br><br><br><br>
+                            <h2>Sobre os Cursos AvanceTec</h2>
+                            <p class="texto" id="texto1">
+                                Os cursos da AvanceTec são destinados às pessoas que querem se desenvolver na área de tecnologia. 
+                                São diversos cursos com certificado, preparados por profissionais experientes.
+                            </p>
+                            <p class="texto" id="texto1">
+                                Além de termos suporte para as dúvidas dos alunos, oferecemos uma experiência de aprendizado completa 
+                                e prática que irá implisionar sua carreira para o próximo nível.
+                            </p>
+                            <ul id="texto2">
+                                <li type="circle">Cursos com Certificado
+                                <li type="circle">Suporte ao Aluno 24/7
+                                <li type="circle">Conteúdo Atualizado
+                                <li type="circle">Instrutores Experientes
+                            </ul>
+                        </div>
+                        <div>
+                            <br>
+                            <p class="texto" id="texto3"><b>Desenvolva Suas Habilidades</b></p>                        
+                            <br>
+                        </div>
+                        <a href="matricula.html"><button class="inscrever" style="margin-left: 8rem;" >Inscreva-se aqui</button></a>
+                        <br><br>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cursos mostrados na página principal -->
+            <section>
+                <div>
+                    <h2>Nossas Áreas de Cursos</h2>
+                    <div >
+                        <!-- Programação -->
+                        <div class="dcursos">
+                            <div><img src="/assets/programming.png" width="100" height="auto" alt="Programação"></div>
+                            <div >
+                                <h3>Programação</h3>
+                                <p style="text-indent: 0;">
+                                    Aprenda as linguagens mais procuradas do mercado como Python, JavaScript, Java e muito mais.
+                                </p>
+                                <a href="cursos.html#programacao">Explorar Cursos →</a>
+                            </div>
+                        </div>
+
+                        <!-- Design -->
+                        <div class="dcursos">
+                            <div><img src="/assets/design.png" width="100" height="auto" alt="Design"></div>
+                            <div class="course-content">
+                                <h3>Design</h3>
+                                <p>
+                                    Domine as ferramentas de design mais modernas e crie interfaces incríveis com experiência do usuário.
+                                </p>
+                                <a href="cursos.html#design" >Explorar Cursos →</a>
+                            </div>
+                        </div>
+
+                        <!-- Banco de Dados -->
+                        <div class="dcursos">
+                            <div><img src="/assets/database.png" width="100" height="auto" alt="Banco de Dados"></div>
+                            <div >
+                                <h3>Banco de Dados</h3>
+                                <p>
+                                    Domine SQL, MongoDB, PostgreSQL e outras tecnologias essenciais para gerenciar dados.
+                                </p>
+                                <a href="cursos.html#database" >Explorar Cursos →</a>
+                            </div>
+                        </div>
+
+                        <!-- Todos os Cursos -->
+                        <div class="dcursos">
+                            <div><img src="/assets/cursos.png" width="100" height="auto" alt="Todos os Cursos"></div>
+                            <div>
+                                <h3>Todos os Nossos Cursos</h3>
+                                <p>
+                                    Explore nossa biblioteca completa com dezenas de cursos em diferentes tecnologias e níveis.
+                                </p>
+                                <a href="cursos.html" >Ver Catálogo Completo →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br><br><br>
+        </main>
+
+        <!--Rodapé-->
+    <footer class="site-footer">
+        <div>
+            <p>&copy; 2026 AvanceTec. Desenvolvido por <a href="sobreautor.html">Raquel Melo</a>.</p>
+            <p>Desenvolvendo profissionais de tecnologia para o futuro</p>
+        </div>
+    </footer>
+</body>
+</html>

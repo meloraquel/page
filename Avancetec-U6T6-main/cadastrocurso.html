@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração - AvanceTec</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="corpo_site" >
+    <!-- Cabeçalho -->
+    <header class="headersite">
+        <a href="index.html"><img src="assets/logo1.png" class = "logomenu" alt="AvanceTec"  width=auto height=50 ></a>
+        <nav class="menunav site-nav">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="labelmenu">
+            <span class="spammenu"></span>
+            </label>
+            <menu class="sitemenu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="depoimentos.html">Depoimentos</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="matricula.html">Matrícula</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </menu>
+            </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="site-main">
+        
+        <section>
+            <div style="text-align: center">
+                <img src="assets/logo2.png" width="350" height=auto alt="AvanceTec">
+                <h1>AvanceTec</h1>
+                <p>CURSOS DE TECNOLOGIA PARA ALAVANCAR SUA CARREIRA</p>
+            </div>
+        </section>
+        <br><br><br><br>
+
+        <!-- Cadastro de Cursos -->
+        <section class="cadcursossection">
+            
+                <!-- Formulário de Contato -->
+                <div class="cadcursosdiv">
+                    <h2>Cadastro de Cursos</h2>
+                    <h3>Envie uma Mensagem</h3>
+                    <form class="cadcursoform">
+                        <label for="Categoria">Categoria:</label><br>
+                        <input type="text" id="Categoria" name="Categoria" required><br><br>
+
+                        <label for="Curso">Curso:</label><br>
+                        <input type="text" id="Curso" name="Curso" required><br><br>
+
+                        <label for="nivel">Nível:</label><br>
+                        <select id="nivel" name="nivel">
+                            <option value="iniciante">Iniciante</option>
+                            <option value="intermediário">Intermediário</option>
+                            <option value="avancado">Avançado</option>
+                        </select><br><br>
+
+                        <label for="duracao">Duração:</label><br>
+                        <input type="text" id="duracao" name="duracao" required><br><br>
+
+                        <label for="resumo">Resumo:</label><br>
+                        <textarea id="resumo" name="resumo" rows="10" required></textarea><br><br>
+
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+        </section>
+        <br><br><br><br><br>
+        <!--Lista de cursos-->
+        <section>
+        <h2> Lista de Cursos</h2>
+        <table style="border-width: 1px;">
+            <thead>
+                <tr>
+                    <th>Categoria</th>
+                    <th>Curso</th>
+                    <th>Nível</th>
+                    <th>Duração</th>
+                    <th>Resumo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--Programação-->
+                <tr>
+                    <td>Programação</td>
+                    <td>HTML e CSS Básico</td>
+                    <td>Iniciante</td>
+                    <td>4 semanas</td>
+                    <td>Aprenda os fundamentos da web: estrutura com HTML e estilização com CSS. Ideal para iniciantes.</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Programação</td>
+                    <td>JavaScript para Iniciantes</td>
+                    <td>Iniciante</td>
+                    <td>6 semanas</td>
+                    <td>Domine a linguagem de programação mais usada na web. Aprenda lógica, funções e interatividade.</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Programação</td>
+                    <td>React.js</td>
+                    <td>Intermediário</td>
+                    <td>8 semanas</td>
+                    <td>Construa interfaces dinâmicas e modernas com a biblioteca mais popular do JavaScript.</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Programação</td>
+                    <td>Node.js</td>
+                    <td>Intermediário</td>
+                    <td>8 semanas</td>
+                    <td>Desenvolva aplicações backend com JavaScript. Aprenda APIs, bancos de dados e servidores.</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>                                                
+                <tr>
+                    <td>Programação</td>
+                    <td>Python para Ciência de Dados</td>
+                    <td>Intermediário</td>
+                    <td>10 semanas</td>
+                    <td>Use Python para análise de dados, machine learning e visualização com bibliotecas como Pandas e Matplotlib.</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>Programação</td>
+                    <td>Git e Controle de Versão</td>
+                    <td>Iniciante</td>
+                    <td>2 semanas</td>
+                    <td>Aprenda a usar Git para versionamento de código, colaboração em equipe e GitHub.</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>                
+                
+            </tbody>
+        </table>
+        </section>
+        <br><br><br><br><br>
+    </main>
+
+
+    <footer class="site-footer">
+        <div style="text-align: center;">
+            <p>&copy; 2026 AvanceTec. Desenvolvido por <a href="sobreautor.html">Raquel Melo</a>.</p>
+            <p>Desenvolvendo profissionais de tecnologia para o futuro</p>
+        </div>
+    </footer>
+</body>
+</html>
