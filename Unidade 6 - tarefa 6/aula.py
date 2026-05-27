@@ -28,6 +28,11 @@ nomes.extend("a","b")
 # arrays com várias dimensões - são matrizes - array são comumente usado de 2 dimensões, cada um dos elementos sõa adicionados com dois índices
 #primero e segundo índice (i - linha e j- coluna)_
       
+# MATRIZEZ - 
+matriz = [[1,2,3],[4,5,6],[7,8,9]]
+for i in range(3): #percorre linha
+      for j in range(3) #percorre coluna
+
 
 
 
