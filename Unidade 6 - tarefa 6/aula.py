@@ -1,5 +1,6 @@
 #AULA27/05/26
-
+#https://docs.python.org/pt-br/3.7/library/array.html
+#https://docs.python.org/pt-br/3.7/library/stdtypes.html?highlight=tuple#tuple
 nomes = [,aria, joao, josé, leticia]
 # acessar um incice do elemento(índice)
 print(nomes[1]
