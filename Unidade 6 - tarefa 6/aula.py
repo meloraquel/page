@@ -11,6 +11,7 @@ nomes.pop("Kelly")
       
 # adicionar um elemento pelo índice - Parâmetros: (índice do elemento, valor
 nomes.insert(0,"raquel")
+      #https://www.geeksforgeeks.org/python/difference-between-append-extend-and-insert-in-python/
       
 #remover os nomes pelo índice
 nomes.pop(1)
@@ -20,6 +21,13 @@ print("Douglas" in nomes)
 
 #ordenar os vetores é basicamente criar um novo vetor ordenado
 nomes.sort()
+nomes.sort(reverse=True) #faz a ordem reversa
+
+#Estender coloca vários
+nomes.extend("a","b")
+# arrays com várias dimensões - são matrizes - array são comumente usado de 2 dimensões, cada um dos elementos sõa adicionados com dois índices
+#primero e segundo índice (i - linha e j- coluna)_
+      
 
 
 
