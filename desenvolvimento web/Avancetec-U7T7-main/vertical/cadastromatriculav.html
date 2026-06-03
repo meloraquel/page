@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depoimentos - AvanceTec</title>
+    <link rel="stylesheet" href="../css/style2.css">
+    <style>
+        td{
+        color: black;
+        }
+        button{
+        color: black;
+        }
+    </style>
+</head>
+<body class="corpo_site" >
+    <!-- Cabeçalho -->
+    <header class="headersite">
+        <a href="../index.html"><img src="../assets/logo1.png" class = "logomenu" alt="AvanceTec"  width=auto height=50 ></a>
+        <nav class="menunav site-nav">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="labelmenu">
+            <span class="spammenu"></span>
+            </label>
+            <menu class="sitemenu">
+                <li><a href="../indexv.html">Início</a></li>
+                <li><a href="../vertical/sobrev.html">Sobre</a></li>
+                <li><a href="../vertical/cursosv.html">Cursos</a></li>
+                <li><a href="../vertical/contatov.html">Contato</a></li>
+                <li><a href="../vertical/depoimentosv.html">Depoimentos</a></li>
+                <li><a href="../vertical/loginv.html">Login</a></li>
+                <li><a href="../vertical/matriculav.html">Matrícula</a></li>
+                <li><a href="../vertical/adminv.html">Admin</a></li>
+                <li><a href="../cadastromatricula.html">Horizontal</a></li>
+            </menu>
+            </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="site-main">
+        <!--Logo do Site-->
+        <section>
+            <div style="text-align: center">
+                <img src="../assets/logo2.png" width="350" height=auto alt="AvanceTec">
+                <h1>AvanceTec</h1>
+                <p>CURSOS DE TECNOLOGIA PARA ALAVANCAR SUA CARREIRA</p>
+            </div>
+        </section>
+        <br><br><br><br>
+            <!--Cadastro-->
+         <section class="cadmatriculasection">
+            <div class="cadmatriculadiv">
+                <h2>Cadastro</h2>
+                <form class="cadmatriculaform">
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" required><br><br>
+
+                    <label for="telefone">Telefone:</label><br>
+                    <input type="tel" id="telefone" name="telefone" required><br><br>
+
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="senha">Senha:</label><br>
+                    <input type="password" id="senha" name="senha" required><br><br>
+
+                    <label for="confirmar_senha">Confirmar Senha:</label><br>
+                    <input type="password" id="confirmar_senha" name="confirmar_senha" required><br><br>
+
+                    <button type="submit">Confirmar</button>
+                </form>
+            </div>
+        </section>
+        <br><br><br>
+        <!--Lista de depoimentos-->
+        <section>
+            <div>
+                <h2>Lista de Alunos</h2>
+            <table>
+            <thead>
+                <tr>
+                    <th>Nome Completo</th>
+                    <th>Telefone</th>
+                    <th>E-mail</th>
+                    <th>Senha</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Raquel </td>
+                    <td>88985637542</td>
+                    <td>raquel@email.com</td>
+                    <td>yui543</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nicholas</td>
+                    <td>88998655632</td>
+                    <td>nicholas@email.com</td>
+                    <td>534ras</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>Kauan</td>
+                    <td>88997452153</td>
+                    <td>kauan@email.com</td>
+                    <td>fts755</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+            </div>
+        </section>
+        <br><br><br><br><br>
+    </main>
+
+
+    <footer class="site-footer">
+        <div style="text-align: center;">
+            <p>&copy; 2026 AvanceTec. Desenvolvido por <a href="../vertical/sobreautorv.html">Raquel Melo</a>.</p>
+            <p>Desenvolvendo profissionais de tecnologia para o futuro</p>
+        </div>
+    </footer>
+</body>
+</html>
